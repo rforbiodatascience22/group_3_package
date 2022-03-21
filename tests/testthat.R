@@ -1,4 +1,4 @@
 library(testthat)
-library(R-bosome)
+library(Rbosome)
 
-test_check("R-bosome")
+test_check("Rbosome")

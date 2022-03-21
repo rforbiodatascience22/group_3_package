@@ -1,9 +1,9 @@
-^R-bosome\.Rproj$
+^Rbosome\.Rproj$
 ^\.Rproj\.user$
 ^mypkgname\.Rcheck$
 ^mypkgname.*\.tar\.gz$
 ^mypkgname.*\.tgz$
 ^LICENSE\.md$
-^R-bosome\.Rcheck$
-^R-bosome.*\.tar\.gz$
-^R-bosome.*\.tgz$
+^Rbosome\.Rcheck$
+^Rbosome.*\.tar\.gz$
+^Rbosome.*\.tgz$
