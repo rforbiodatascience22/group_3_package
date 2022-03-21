@@ -2,4 +2,5 @@
 
 export(DNA_to_RNA)
 export(rna_transform)
+export(translate)
 importFrom(magrittr,"%>%")
