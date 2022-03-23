@@ -14,7 +14,7 @@ aa_abundance_plot <- function(aa_seq){
     unique()
 
   # Count instances of each amino acid and add to matrix
-  counts <- sapply(aa_unique, function(aa_plot) stringr::str_count(string = aa_seq, pattern =  aa_plot)) %>%
+  counts <- sapply(aa_unique, function(aa_plot) stringi::stri_count_fixed(str = aa_seq, pattern =  aa_plot)) %>%
     as.data.frame()
 
   # Create column and row names for matrix
