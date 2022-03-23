@@ -1,6 +1,6 @@
 ---
 title: "Rbosome"
-output: rmarkdown::pdf_vignette
+output: rmarkdown::pdf_document
 vignette: >
   %\VignetteIndexEntry{Rbosome}
   %\VignetteEngine{knitr::rmarkdown}
@@ -50,6 +50,7 @@ DNA_seq <- ATGC(90)
 DNA_seq
 ```
 
+\newpage
 ### Transform DNA string to RNA
 ```{r}
 RNA_seq <- DNA_to_RNA(DNA_seq)
