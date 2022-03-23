@@ -1,0 +1,10 @@
+test_that("Number of letters matches input", {
+  expect_equal(str_length("A"), 1)
+  expect_equal(str_length("T"), 1)
+  expect_equal(str_length("G"), 1)
+  expect_equal(str_length("C"), 1)
+  expect_equal(str_length("AT"), 2)
+  expect_equal(str_length("AA"), 2)
+  expect_equal(str_length("AG"), 2)
+  expect_equal(str_length("AC"), 2)
+})
