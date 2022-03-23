@@ -7,3 +7,6 @@
 ^Rbosome\.Rcheck$
 ^Rbosome.*\.tar\.gz$
 ^Rbosome.*\.tgz$
+^doc$
+^Meta$
+^README\.Rmd$
