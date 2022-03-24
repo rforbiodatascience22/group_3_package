@@ -2,9 +2,8 @@
 #'
 #' @param aa_seq string of amino acids
 #'
-#' @export
-#'
 #' @importFrom magrittr %>%
+#' @export
 aa_abundance_plot <- function(aa_seq){
 
   # Extract unique amino acids from sequence

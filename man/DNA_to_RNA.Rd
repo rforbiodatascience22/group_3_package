@@ -9,9 +9,6 @@ DNA_to_RNA(DNA)
 \arguments{
 \item{DNA}{sequence to be transcribed}
 }
-\value{
-
-}
 \description{
 DNA to RNA sequence transcription function
 }

@@ -11,9 +11,6 @@ rna_transform(rna_seq, start = 1)
 
 \item{start}{integer. The first element to begin codon transformation.}
 }
-\value{
-
-}
 \description{
 Substring RNA in a window of 3 letters
 }

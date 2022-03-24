@@ -9,9 +9,6 @@ ATGC(DNAletters)
 \arguments{
 \item{DNAletters}{Number of letters in output sequence}
 }
-\value{
-
-}
 \description{
 Generation of a DNA sequence
 }

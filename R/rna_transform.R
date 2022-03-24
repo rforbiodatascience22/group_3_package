@@ -3,10 +3,7 @@
 #' @param rna_seq A character vector.
 #' @param start integer. The first element to begin codon transformation.
 #'
-#' @return
 #' @export
-#'
-#' 
 rna_transform <- function(rna_seq, start = 1){
   rna_vec <- nchar(rna_seq)
   codons <- substring(rna_seq,
