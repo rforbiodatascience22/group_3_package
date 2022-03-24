@@ -21,6 +21,7 @@ aa_abundance_plot <- function(aa_seq){
   counts[["Amino_acid"]] <- rownames(counts)
 
   # Plot the amino acid abundances
+  Amino_acid <- Counts <- NULL
   aa_plot <- counts %>%
     ggplot2::ggplot(ggplot2::aes(x = Amino_acid, y = Counts, fill = Amino_acid)) +
     ggplot2::geom_col() +
