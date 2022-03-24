@@ -9,3 +9,6 @@ mypkgname*.tgz
 Rbosome.Rcheck/
 Rbosome*.tar.gz
 Rbosome*.tgz
+inst/doc
+/doc/
+/Meta/
