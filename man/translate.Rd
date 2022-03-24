@@ -7,7 +7,7 @@
 translate(codons)
 }
 \arguments{
-\item{codons}{}
+\item{codons}{Codon to translate}
 }
 \value{
 amino acids sequence

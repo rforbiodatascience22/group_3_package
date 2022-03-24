@@ -2,7 +2,7 @@
 #'
 #'Generation of a DNA sequence
 #'
-#' @param DNAletters
+#' @param DNAletters Number of letters in output sequence
 #'
 #' @return
 #' @export

@@ -1,6 +1,6 @@
 #' Translate RNA codons to amino acids
 #'
-#' @param codons 
+#' @param codons Codon to translate
 #'
 #' @return amino acids sequence
 #' @export

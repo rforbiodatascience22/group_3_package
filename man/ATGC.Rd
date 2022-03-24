@@ -7,7 +7,7 @@
 ATGC(DNAletters)
 }
 \arguments{
-\item{DNAletters}{}
+\item{DNAletters}{Number of letters in output sequence}
 }
 \value{
 
